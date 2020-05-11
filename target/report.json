@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-11T14:57:58.224Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7743124300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "latest pay monthly deals search",
+        "description": "",
+        "id": "latest-offers-search;latest-pay-monthly-deals-search",
+        "after": [
+          {
+            "result": {
+              "duration": 2330571300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1858041800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i navigate the carphonewarehouse homepage",
+            "match": {
+              "location": "SearchLatestOffersSteps.i_navigate_the_carphonewarehouse_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i move on latestOffers link",
+            "match": {
+              "location": "SearchLatestOffersSteps.i_move_on_latestOffers_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click on Pay Monthly Deals link",
+            "match": {
+              "location": "SearchLatestOffersSteps.i_click_on_Pay_Monthly_Deals_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i click on right arrow link",
+            "match": {
+              "location": "SearchLatestOffersSteps.i_click_on_right_arrow_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click on ViewDetails button",
+            "match": {
+              "location": "SearchLatestOffersSteps.i_click_on_ViewDetails_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "full detail of offer is displayed",
+            "match": {
+              "location": "SearchLatestOffersSteps.full_detail_of_offer_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "latest offers search",
+    "description": "  i as customer\n  i want the ability to search for latest offers available at present\n  and review the details of the offer i like",
+    "id": "latest-offers-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/carphonewarehouse/features/CustomerCanSearchLatestOffers.feature",
+    "tags": []
+  }
+]
